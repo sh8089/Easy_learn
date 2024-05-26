@@ -1,0 +1,207 @@
+*{
+  font-family: IransansX;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  direction: rtl;
+}
+.main{
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(dark-background-abstract-background-network-3d-background-3840x2160-8324.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+form{
+  border: 2px solid rgb(201, 201, 201);
+  border-radius: 13px;
+  padding: 40px 18px;
+  width: 420px;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+.main h1{
+  text-align: center;
+  font-size: 36px;
+  color: #f5f2f2;
+}
+.inputs input{
+  border: 1px solid rgb(238, 238, 238);
+  outline: none;
+  border-radius: 18px;
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+  font-weight: bold;
+  
+}
+.inputs{
+  display: flex;
+  margin: 20px 0;
+  padding: 0px 16px 0px 16px;
+}
+input[type=text], input[type=password]{
+  color: white;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.remember-forgot input, label, a{
+  outline: none;
+  border: none;
+  color: #f5f2f2;
+  text-decoration: none;
+}
+.remember-forgot input, label{
+  cursor: pointer;
+  accent-color: #dad1d1
+}
+.remember-forgot a{
+  float: right;
+}
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
+.remember-forgot{
+  margin: 14px 0;
+  padding: 0px 16px 0px 16px;
+
+}
+.button{
+  padding: 5px;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  border-radius: 18px;
+  font-size: 14.5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+.register{
+  text-align: center;
+  margin: 14px 0;
+}
+.register p{
+  color: #f5f2f2;
+}
+.register a{
+  font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+}
+.inputs i{
+  position: absolute;
+  margin: 12px 0;
+  right: 55px;
+  font-size: 20px;
+  color: #dad4d4;
+}
+
+.remember-forgot select{
+  width: 100%;
+  height: 40px;
+  border-radius: 18px;
+  font-weight: 400;
+  font-weight: bold;
+  padding: 0px 16px 0px 16px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.remember-forgot select option{
+  color: black;
+}
+.remember-forgot input[type=file]{
+  outline: none;
+  width: 50%;
+  background: transparent;
+
+}
+.card {
+  width: fit-content;
+  height: fit-content;
+  /* background-color: rgb(238, 238, 238); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  margin-right: 30px;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

@@ -1,0 +1,75 @@
+.trophys {
+    display: flex;
+    flex-wrap: wrap; /* اگر می‌خواهید به صورت خودکار به خط بعدی بروند */
+    direction: rtl;
+    justify-content: flex-start; /* برای قرار دادن div ها در ابتدای خط */
+    border-top: 2px solid white;
+}
+
+.trophy {
+    width: 195px; /* مطمئن شوید که عرض div ها کمتر از عرض والد است */
+    height: 260px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+}
+section-heading{
+    margin: 20px;
+}
+.button{
+    float: right;
+}
+/* CSS */
+.button {
+    background-color: #f5a425; /* رنگ پیشفرض دکمه زرد */
+    color: #ffffff; /* رنگ متن سفید */
+    padding: 10px 20px; /* اندازه پدینگ دکمه */
+    border: 2px solid #000000; /* حاشیه دکمه */
+    border-radius: 5px; /* شکل گرد دکمه */
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #f5a425 50%, rgb(23, 192, 23) 50%);
+    transition: background-position 0.3s ease;
+}
+
+.button:hover {
+    background-position: -100% 0;
+    color: #ffffff; /* رنگ متن جدید هنگام هاور */
+}
+.footer-01 * {
+    direction: ltr;
+  }
+*{
+    font-family: IransansX;
+}  
+h1, h2, h3, h4, h5, h6{
+    font-family: IransansX;
+}
+footer{
+    direction: rtl;
+}
+footer{
+    text-align: right;
+}
+::selection{
+    background-color: #009e66;
+    color: white;
+}
+.trophy{
+    direction: rtl;
+    text-align: right;
+    background-image: linear-gradient( white , #FFB300 100%);
+}
+.trophy h6{
+    font-size: 15.5px;
+    font-weight: bold;
+}
+.trophy p{
+    font-size: 15px;
+    width: 160px;
+}
+video{
+    width: 550px;
+    border-radius: 8px;
+}

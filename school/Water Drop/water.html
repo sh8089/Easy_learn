@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", "sans-serif";
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #dedede;
+      }
+
+      .container {
+        position: relative;
+        max-width: 800px; /* Reduced container max-width */
+        width: 100%;
+        padding: 20px; /* Reduced container padding */
+        display: flex;
+        flex-flow: row wrap; /* Adjusted to wrap items */
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container .card {
+        padding: 20px; /* Reduced card padding */
+        overflow: hidden;
+        width: 200px; /* Reduced card width */
+        height: 200px; /* Reduced card height */
+        margin: 10px; /* Added margin between cards */
+      }
+
+      .image img {
+        width: 80px; /* Reduced image size */
+        height: 80px; /* Reduced image size */
+        object-fit: cover;
+        border-radius: 50%;
+        opacity: 0.8;
+        border: 2px solid #333; /* Reduced border size */
+      }
+
+      .card-content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px; /* Reduced content padding */
+      }
+
+      .name {
+        font-size: 14px; /* Reduced name font size */
+        font-weight: 600;
+      }
+
+      .name-person .job {
+        font-size: 12px; /* Reduced job font size */
+        font-weight: 500;
+      }
+
+      .card-content .rating i {
+        font-size: 16px; /* Reduced rating font size */
+        color: #333;
+        margin: 0 2px;
+      }
+
+      .card-content button {
+        padding: 6px 25px; /* Reduced button padding */
+        font-size: 12px; /* Reduced button font size */
+        margin-top: 20px; /* Adjusted button margin */
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mehr_code</title>
+    <!-- Fav icon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/Favicon.png" />
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <div class="image">
+            <img src="./assets/images/kagan.jpg" alt="" />
+            <div class="name-person">
+              <span class="name">Kagan</span>
+              <span class="job">Producer</span>
+            </div>
+          </div>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <button>View More!</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="image">
+            <img src="./assets/images/atour.jpg" alt="" />
+            <div class="name-person">
+              <span class="name">Atour</span>
+              <span class="job">Producer</span>
+            </div>
+          </div>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <button>View More!</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <div class="image">
+            <img src="./assets/images/dehghan.jpg" alt="" />
+            <div class="name-person">
+              <span class="name">Dehghan</span>
+              <span class="job">Producer</span>
+            </div>
+          </div>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <button>View More!</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

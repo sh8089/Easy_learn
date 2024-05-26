@@ -1,0 +1,41 @@
+*{
+    font-family: IransansX;
+}
+body{
+    background-image: linear-gradient(135deg, rgb(59, 72, 175) 0%, rgb(59, 72, 175) 31%,rgb(55, 66, 150) 31%, rgb(55, 66, 150) 46%,rgb(51, 60, 126) 46%, rgb(51, 60, 126) 56%,rgb(48, 54, 101) 56%, rgb(48, 54, 101) 83%,rgb(44, 48, 77) 83%, rgb(44, 48, 77) 93%,rgb(40, 42, 52) 93%, rgb(40, 42, 52) 100%);      
+      background-position: center;
+    background-size: cover;
+}
+h1{
+    color: #f5a425;
+    text-align: center;
+    direction: rtl;
+}
+.page-heading{
+    margin: 20px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.img-center{
+    border-radius: 50%;
+    filter: drop-shadow(15px 10px 25px rgb(0, 0, 0));
+}
+.page-back a{
+    color: #f5a425;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 20px;
+}
+.page-back{
+    margin: 20px;
+    text-align: left;
+    position: relative;
+    top: -60px;
+}
+.all{
+    text-align: center;
+}
